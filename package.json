@@ -1,0 +1,17 @@
+{
+  "name": "1eval-actividad-intermedia",
+  "version": "1.0.0",
+  "description": "Actividad intermedia para DWEC",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "wrap () { eslint ./src/${1}; }; wrap",
+    "winlint": "eslint"
+  },
+  "author": "Miguel Angel Fernandez",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.26.0"
+  }
+}
